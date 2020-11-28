@@ -1,0 +1,20 @@
+<view class='replay_content' wx:if="{{searchrecord.length > 0}}">
+    <!-- <text class='tip-text'>-----------以下是回复内容----------</text> -->
+    <view class="content-box">搜索历史</view>
+    <block wx:for="{{searchrecord}}" wx:for-index="idx">
+      <view class="main-content">
+
+      <view class='user-info1'>
+     
+      <view class='user-name-time'>
+        <view class='user-name'>{{searchrecord[idx].keyword}}</view>
+        <view class='user-publish-time'>{{searchrecord[idx].date}}</view>
+      </view>
+    </view>
+    
+
+        
+        <view class="content-maintext">{{item.content}}</view>    
+      </view>
+    </block>
+  </view>

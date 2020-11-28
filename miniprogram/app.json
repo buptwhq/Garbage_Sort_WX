@@ -1,0 +1,63 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/ai/index",
+    "pages/ai/camera/camera",
+    "pages/ai/search",
+    "pages/sort/sort",
+    "pages/sort/detail/index",
+    "pages/test/test",
+    "pages/index/index",
+    "pages/android/qa",
+    "pages/home/home",
+    "pages/publish/publish",
+    "pages/me/me",
+    "pages/homeDetail/homeDetail",
+    "pages/history/history",
+    "pages/replay/replay"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00cc77",
+    "navigationBarTitleText": "智能垃圾分类",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/ai/index",
+        "text": "搜索",
+        "iconPath": "images/search_defaut.png",
+        "selectedIconPath": "images/search_select.png"
+      },
+
+      {
+        "pagePath": "pages/sort/sort",
+        "text": "分类",
+        "iconPath": "images/icon_sort_default.png",
+        "selectedIconPath": "images/icon_sort.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "答题测试",
+        "iconPath": "images/100.png",
+        "selectedIconPath": "images/100_active.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "社区",
+        "iconPath": "images/tab/luntan.png",
+        "selectedIconPath": "images/tab/luntan_select.png"
+      },
+      
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/tab/me.png",
+        "selectedIconPath": "images/tab/me_select.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
